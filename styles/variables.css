@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('/styles/container.css');
+
+:root {
+    --fonte:'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    color: #fff;
+    background: linear-gradient(104deg, #121212 33.84%, #1e3a8a 162.79%) no-repeat;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .elipse {
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    width: 600px;
+    height: 600px;
+    transform: rotate(-17.376deg);
+    flex-shrink: 0;
+    border-radius: 50%;
+    opacity: 0.5;
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+    filter: blur(100px);
+  }
+
+  
+
+
+
