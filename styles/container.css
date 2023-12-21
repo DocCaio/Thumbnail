@@ -19,14 +19,15 @@
 
   .navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    
   }
 
   
 
   .nav-links {
-    display: inline-block;
+    display: flex;
+    gap: 1rem;
     margin-left: 30px;
     font-size: 17px;
     font-weight: 400;
@@ -40,8 +41,49 @@
     margin-top: -10px;
   }
 
+  p {
+    color: #E5E7EB;
+    font-family: var(--fonte);
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px; /* 150% */
+   padding: 1rem 0rem;
+  }
+
+
+
+.link-portifolio {
+  margin: 15px 0px;
+  width: 187px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: all 0.2s ease-in; 
+  background: var(--bg-button);
+  font-size: 16px;
+  padding: 1rem;
+
+}
+
+.link-portifolio:hover {
+  /* Animação de fundo */
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
+
+  /* Animação de escala */
+  transform: scale(1.1);
+
+  /* Animação de cor do texto */
+  color: #fff;
+
+  /* Animação de rotação
+  transform: rotate(45deg); */
+}
+
   a {
-    display: inline-block;
+    font-family: var(--fonte);
     font-size: 30px;
     font-weight: 400;
     margin-top: -10px;
@@ -54,6 +96,52 @@
 
   }
 
+  .image-wrapper {    
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
   .imageFlying {    
     max-width: 100%;
+    
+  } 
+
+  
+  
+
+
+  @keyframes flutuar {
+    0%,
+    100% {
+      /* Define a posição inicial e final da animação */
+      transform: translateY(0);
+    }
+    50% {
+      /* Define a posição do meio da animação */
+      transform: translateY(-20px);
+    }
   }
+
+  @media (min-width: 1440px) {
+    .navbar {
+      display: flex;      
+      align-items: center;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .image-wrapper {    
+       display: flex;
+       justify-content: center;
+    }
+    
+
+   
+  
+    
+
+      }
+  
+
