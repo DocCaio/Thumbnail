@@ -14,7 +14,10 @@
     border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 50px 100px;
     border-radius: 16px;
-    z-index: 10;
+    z-index: 10;    
+    border-radius: 24px;  
+   background: linear-gradient(107deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
+   backdrop-filter: blur(15px);
   }
 
   .navbar {
@@ -106,6 +109,10 @@
     
   } 
 
+  .bi {
+    display: none;
+  }
+
   
   
 
@@ -120,23 +127,43 @@
       /* Define a posição do meio da animação */
       transform: translateY(-20px);
     }
+
+    
   }
+
+  /*Desktop*/
 
   @media (min-width: 1440px) {
     .navbar {
-      display: flex;      
+      display: flex;          
       align-items: center;
+    }  
+    
+    .bi {
+      display: block;
+      font-size: 1.5rem;
     }
+    
 
     .content {
       display: flex;
+      padding: 2rem 0rem;
+      gap: 5rem;
+      
     }
 
     .image-wrapper {    
        display: flex;
-       justify-content: center;
+       margin-top: -5rem;      
+       
     }
+
     
+  .imageFlying {
+    width: 467px;
+    height: 467px;  
+
+  }
 
    
   
