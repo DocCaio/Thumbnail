@@ -22,8 +22,7 @@
 
   .navbar {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
   }
 
   
@@ -68,7 +67,6 @@
   background: var(--bg-button);
   font-size: 16px;
   padding: 1rem;
-
 }
 
 .link-portifolio:hover {
@@ -94,8 +92,7 @@
     
 
     color: #FFF;
-    font-family: var(--fonte);
-    
+    font-family: var(--fonte);    
 
   }
 
@@ -111,9 +108,7 @@
 
   .bi {
     display: none;
-  }
-
-  
+  }  
   
 
 
