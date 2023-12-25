@@ -16,24 +16,19 @@
     border-radius: 16px;
     z-index: 10;    
     border-radius: 24px;  
-   background: linear-gradient(107deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
-   backdrop-filter: blur(15px);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
+    backdrop-filter: blur(15px);
   }
 
   .navbar {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;           
   }
 
   
 
   .nav-links {
-    display: flex;
-    gap: 1rem;
-    margin-left: 30px;
-    font-size: 17px;
-    font-weight: 400;
-    list-style: none;
+   display: none;
   }
 
   .logo {
@@ -55,7 +50,7 @@
 
 
 
-.link-portifolio {
+.link-portifolio {  
   margin: 15px 0px;
   width: 187px;
   height: 48px;
@@ -98,7 +93,7 @@
 
   .image-wrapper {    
     max-width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .imageFlying {    
@@ -132,7 +127,17 @@
     .navbar {
       display: flex;          
       align-items: center;
-    }  
+      
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      margin-left: 30px;
+      font-size: 17px;
+      font-weight: 400;
+      list-style: none;
+    }
     
     .bi {
       display: block;
