@@ -1,5 +1,5 @@
 const imagemFlutuante = document.querySelector(".imageFlying");
-const texto = "Hallo I m Caio.";
+const texto = "Hallo I m Caio .";
 const elementoMaquinaEscrever = document.querySelector(".typewriter");
 
 function animarFlutuacao() {
