@@ -1,17 +1,16 @@
 #  Thumbnail link portfolio
 
-Thumbnail is a loaging page to my portifilio.
+Thumbnail is a loading page to my portfolio.
 
 <img src="https://github.com/DocCaio/Thumbnail/blob/main/img/designer/screenshot.png" alt="Calmaria Spa" width="50%">
 
 
 ## 🔨 Projetc functions
 
-This projetct it is one page
+This project it is one page
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and technologies used
 
-Se liga nessa lista de tudo que usaremos nesse curso:
 
 - `HTML`
 - `CSS`
@@ -19,7 +18,7 @@ Se liga nessa lista de tudo que usaremos nesse curso:
 - `JavaScript`
 - `Figma`
 
-More about!
+More about it!
 
 ## 🛠️ Open and run the project
 
