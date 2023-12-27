@@ -5,6 +5,9 @@ Thumbnail is a loading page to my portfolio.
 <img src="https://github.com/DocCaio/Thumbnail/blob/main/img/designer/screenshot.png" alt="Calmaria Spa" width="50%">
 
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
+
+
 ## 🔨 Projetc functions
 
 This project it is one page
